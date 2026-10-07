@@ -29,11 +29,11 @@ Kali used two adapters — NAT for tool updates, host-only for the isolated lab.
 
 **Isolation proof** — the target cannot reach the internet (`ping 8.8.8.8` fails), confirming the lab is sealed:
 
-![Isolation proof](02-isolation-proof.png)
+![Isolation proof](02-isolation-proof.png.png)
 
 **Connectivity** — the assessor can reach the target over the host-only network:
 
-![Lab connectivity](03-lab-connectivity.png)
+![Lab connectivity](03-lab-connectivity.png.png)
 
 ---
 
@@ -49,7 +49,7 @@ Each finding was recorded in a risk register and scored using a **likelihood × 
 
 **Host discovery + full service scan** — 23 open services and an end-of-life Linux 2.6 kernel:
 
-![Discovery and full scan](04-discovery-and-full-scan.png)
+![Discovery and full scan](04-discovery-and-full-scan.png.png)
 
 ---
 
@@ -65,15 +65,15 @@ The most serious findings fall into five themes:
 
 **Confirmed TLS vulnerabilities** (POODLE, Logjam):
 
-![TLS vulnerabilities](05-vuln-scan-tls.png)
+![TLS vulnerabilities](05-vuln-scan-tls.png.png)
 
 **Java RMI remote code execution + exposed web admin pages**:
 
-![RMI RCE and web enumeration](06-vuln-scan-rmi-web.png)
+![RMI RCE and web enumeration](06-vuln-scan-rmi-web.png.png)
 
 **CCS Injection, plus negative results recorded (SMB MS10-054 / MS10-061 not vulnerable)**:
 
-![Vulnerability scan end](07-vuln-scan-end.png)
+![Vulnerability scan end](07-vuln-scan-end.png.png)
 
 ---
 
