@@ -25,7 +25,7 @@ Two virtual machines on a VirtualBox **host-only network**, fully isolated from 
 
 Kali used two adapters — NAT for tool updates, host-only for the isolated lab. Isolation was verified by confirming the target could not reach the internet.
 
-![Lab VMs](01-lab-vms.png)
+![Lab VMs](01-lab-vms.png.png)
 
 **Isolation proof** — the target cannot reach the internet (`ping 8.8.8.8` fails), confirming the lab is sealed:
 
